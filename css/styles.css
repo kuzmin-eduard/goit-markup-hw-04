@@ -90,6 +90,7 @@ button {
   padding: 24px 94px 25px 0;
 }
 .logo-footer {
+  display: block;
   margin-bottom: 30px;
 }
 
@@ -121,7 +122,8 @@ button {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.icon-mail, .icon-smartphone {
+.icon-mail,
+.icon-smartphone {
   margin-right: 10px;
 }
 
@@ -236,11 +238,9 @@ button {
 .clients-img:hover,
 .clients-img:focus {
   border-color: var(--accent-color);
-}
-.clients-logo:hover,
-.clients-logo:focus {
   color: var(--accent-color);
 }
+
 .feature-list {
   display: flex;
   gap: 30px;
@@ -317,7 +317,7 @@ button {
   fill: currentColor;
 }
 
-.social-item-link{
+.social-item-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -325,10 +325,11 @@ button {
   height: 44px;
   border-radius: 50%;
   background-color: var(--primary-white-color);
+  color: var(--border-clients-color);
 }
- .social-item-link:hover,
- .social-item-link:focus {
-  fill: var(--primary-white-color);
+.social-item-link:hover,
+.social-item-link:focus {
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 .section-team .section-title {
@@ -363,8 +364,8 @@ button {
   padding: 60px 0;
 }
 .footer-container {
-  display: block;
-  flex-direction: column;
+  display: flex;
+  align-items: baseline;
 }
 .footer .footer-address {
   font-size: 14px;
@@ -393,16 +394,20 @@ button {
 .footer .footer-contact:focus {
   color: var(--accent-color);
 }
-.footer-social{
+.footer-social {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 70px;
 }
-/* .footer-icon {
-  
-} */
-
+.footer-icon {
+  background-color: #212121;
+  color: #ffffff;
+}
+.footer-title-icons {
+  margin-bottom: 4px;
+}
 
 /* Portfolio */
 
