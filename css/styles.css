@@ -151,6 +151,9 @@ button {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.link-contact {
+  display: flex;
+}
 .contact-nav .link-contact.current {
   color: var(--accent-color);
 }
@@ -431,6 +434,9 @@ button {
 .footer-title-icons {
   margin-bottom: 4px;
   color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428;
 }
 
 /* Portfolio */
