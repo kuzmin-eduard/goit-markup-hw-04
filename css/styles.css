@@ -476,7 +476,8 @@ button {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 50px;
+  margin-top: 94px;
+  margin-bottom: 34px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
