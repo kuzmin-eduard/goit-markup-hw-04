@@ -51,7 +51,7 @@ button {
   cursor: pointer;
 }
 .section {
-  /* padding-top: 94px; */
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -171,7 +171,7 @@ button {
 .hero {
   text-align: center;
   padding: 200px 0;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,7 +195,7 @@ button {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   text-transform: uppercase;
 }
 .button-hero {
@@ -260,14 +260,7 @@ button {
   justify-content: center;
   align-items: center;
 }
-/* .clients-img:hover,
-.clients-imgfocus {
-  color: #2196f3;
-} */
 
-/* .clients-img {
-  color: var(--border-clients-color);
-} */
 .feature-list {
   display: flex;
   gap: 30px;
@@ -299,6 +292,11 @@ button {
 }
 .section-team {
   background-color: var(--button-portfolio);
+  padding-bottom: 0;
+}
+.section-work {
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .title-work,
