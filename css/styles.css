@@ -50,9 +50,12 @@ ul {
 button {
   cursor: pointer;
 }
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
+} */
+.section {
+  margin-bottom: 94px;
 }
 
 /* logo */
@@ -195,7 +198,7 @@ button {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
   text-transform: uppercase;
 }
 .button-hero {
@@ -298,7 +301,9 @@ button {
   padding-bottom: 0;
   padding-top: 0;
 }
-
+/* .title-team {
+  padding-top: 94px;
+} */
 .title-work,
 .title-team {
   color: var(--title-text-color);
@@ -308,9 +313,7 @@ button {
   text-align: center;
   margin-bottom: 50px;
 }
-.title-team {
-  padding-top: 94px;
-}
+
 .work-list {
   display: flex;
   gap: 30px;
@@ -318,6 +321,7 @@ button {
 .team-list {
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
 }
 .container-team {
   display: flex;
