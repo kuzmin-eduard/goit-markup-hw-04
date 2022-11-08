@@ -50,12 +50,8 @@ ul {
 button {
   cursor: pointer;
 }
-/* .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
 .section {
-  margin-bottom: 94px;
+  padding: 94px;
 }
 
 /* logo */
@@ -174,13 +170,11 @@ button {
 .hero {
   text-align: center;
   padding: 200px 0;
-  /* margin-bottom: 94px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
@@ -234,7 +228,6 @@ button {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding-bottom: 30px;
 }
 .clients-img-list {
   display: flex;
@@ -242,9 +235,6 @@ button {
   justify-content: center;
   gap: 30px;
 }
-/* .clients-img-wrap {
-
-} */
 
 .clients-img:hover,
 .clients-img:focus {
@@ -298,12 +288,9 @@ button {
   padding-bottom: 0;
 }
 .section-work {
-  padding-bottom: 0;
   padding-top: 0;
 }
-/* .title-team {
-  padding-top: 94px;
-} */
+
 .title-work,
 .title-team {
   color: var(--title-text-color);
@@ -333,6 +320,7 @@ button {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-img {
   display: block;
@@ -370,7 +358,7 @@ button {
   text-align: center;
 }
 .text-team {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .feature-title {
   position: absolute;
@@ -434,7 +422,7 @@ button {
   color: var(--primary-white-color);
 }
 .footer-title-icons {
-  margin-bottom: 4px;
+  margin-bottom: 20px;
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 14px;
@@ -484,7 +472,6 @@ button {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 94px;
   margin-bottom: 34px;
 }
 .button-portfolio:hover,
